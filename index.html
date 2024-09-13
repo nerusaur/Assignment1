@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="content">   
+        <h1>Contact Us</h1>
+        <form id="form">   
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+    
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+    
+            <label for="pNumber">Phone Number:</label><br>
+            <input type="tel" id="pNumber" name="pNumber" placeholder="Enter your phone number" required><br><br>
+    
+            <label for="Method">Preffered Contact Method:</label><br>
+            <input type="radio" id="Phone" name="Method" value="Phone Number" required>
+            <label for="Phone">Phone</label><br>
+            <input type="radio" id="em" name="Method" value="em" required>
+            <label for="em">Email</label><br><br>
+
+            <label for="subject">Subjects:</label>
+            <select name="sub" id="sub">
+            <option value="WebProg">WebProg</option>
+            <option value="DAA">DAA</option>
+            <option value="CC6">CC6</option>
+             <option value="DS2">DS2</option>
+                </select><br><br>
+
+                <label for="message">-------MESSAGE-------</label>
+                <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your mesasage here😊"></textarea>
+                
+                
+            <label for="subs"><h3>Subscription Option:</h3></label>
+            <input type="checkbox" id="newsletter" name="newsletter" value="newsletter">
+            <label for="newsletter"> NewsLetter</label><br>
+            <input type="checkbox" id="promotions" name="promotions" value="promotions">
+            <label for="promotions">Promotions</label><br>
+            <input type="checkbox" id="newsupdate" name="newsupdate" value="newsupdate">
+            <label for="newsupdate">News Updates</label><br>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+
+    </div>
+    
+
+</body>
+</html>
